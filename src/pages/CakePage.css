@@ -1,0 +1,87 @@
+.cakepage-container {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.cakepage {
+  max-width: 800px;
+  margin: 2rem auto 5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.cakepage-img {
+  max-width: 350px;
+  flex: 0.5;
+}
+
+.cakepage-info {
+  margin-left: 2rem;
+}
+
+.cakepage-info > h1 {
+  font-size: 30px;
+}
+
+.cakepage-info > h2 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.cakepage-text {
+  font-size: 14px;
+  color: #3d3d3d;
+  margin-top: 8px;
+}
+
+.cakepage-qtybox {
+  padding: 5px;
+  height: 35px;
+  width: 200px;
+}
+
+.cakepage-cartbutton {
+  margin-top: 15px;
+  height: 35px;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #8e8d8a;
+  cursor: pointer;
+  color: #8e8d8a;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.cakepage-cartbutton:hover {
+  background-color: #8e8d8a;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .cakepage {
+    max-width: 400px;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .cakepage-img {
+    max-width: 100%;
+  }
+
+  .cakepage-info {
+    margin: 1rem 0 auto;
+  }
+
+  .cakepage-qtybox {
+    width: 100%;
+  }
+
+  .cakepage-cartbutton {
+    width: 100%;
+  }
+}
